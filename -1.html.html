@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>תמונות עם עמוד</title>
+<style>
+.myDiv {
+  border: 5px outset #9933ff;
+  background-color: #00ffff;    
+  text-align: center;
+  color: white;
+}
+.box1 {
+  border: 5px outset #9933ff;
+  width: 230px;
+  height: 370px;
+  background-color: #00ffff;
+  float: right;  
+  margin: 30px;
+}
+.accordion__button{
+float: right;
+display: block;
+width: 229px;
+padding: 5px;
+font-size:20pt;
+border: none;
+outline: none;
+cursor: pointer;
+background: #333333;
+color: #ffffff;
+text-align: center;
+transition: background 0.2s;
+}
+.accordion__button::after {
+font-size:20pt;
+content: '\25be';
+float: left;
+transfrom: scale(1.5);
+}
+.accordion__button--active{ background: #555555}
+.accordion__button--active::after{ content: '\25b4'}
+
+.accordion__content{
+width: 200px;
+float: right;
+text-align: right;
+overflow: hidden;
+max-height: 0;
+transition: max-height 0.2s;
+padding: 0 15px;
+font-family: sans-serif;
+background: #eeeeee;
+}
+</style>
+</head>
+<body>
+<body style="background-color:powderblue;">
+<div class="myDiv">
+  <h1>כאן צריך להיות כרטיס ביקור</h1>
+</div>
+<div>
+<table style="width:80">
+<!--קןמה א-->
+<tr >
+<!--משבצת 1-->
+<td>
+<div class="box1">
+  <p title="קישור" style="text-align: center;"><a href="https://www.art-yeshiva.org.il/"><img src="dog.jpg" alt="כלב" style="border:5px solid #9933ff;" width="205" height="205"></a></p>
+  <p style="font-family:arial; font-size:19pt; text-align: center;"><b><span style="color: white">2,500,000:מחיר</span></b></p>
+    <button type="button" class="accordion__button"><b>מפרט</b></button>
+    <div class="accordion__content">
+    <p style="font-size: 16pt">
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+   </p>
+   </div>
+</td>
+<!--משבצת 2-->
+<td>
+<div class="box1">
+  <p title="קישור" style="text-align: center;"><a href="https://www.art-yeshiva.org.il/"><img src="dog.jpg" alt="כלב" style="border:5px solid #9933ff;" width="205" height="205"></a></p>
+  <p style="font-family:arial; font-size:19pt; text-align: center;"><b><span style="color: white">2,500,000:מחיר</span></b></p>
+    <button type="button" class="accordion__button"><b>מפרט</b></button>
+    <div class="accordion__content">
+    <p style="font-size: 16pt">
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+   </p>
+   </div>
+</td>
+<!--משבצת 3-->
+<td>
+<div class="box1">
+  <p title="קישור" style="text-align: center;"><a href="https://www.art-yeshiva.org.il/"><img src="dog.jpg" alt="כלב" style="border:5px solid #9933ff;" width="205" height="205"></a></p>
+  <p style="font-family:arial; font-size:19pt; text-align: center;"><b><span style="color: white">2,500,000:מחיר</span></b></p>
+    <button type="button" class="accordion__button"><b>מפרט</b></button>
+    <div class="accordion__content">
+    <p style="font-size: 16pt">
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+   </p>
+   </div>
+</td>
+<!--משבצת 4-->
+<td>
+<div class="box1">
+  <p title="קישור" style="text-align: center;"><a href="https://www.art-yeshiva.org.il/"><img src="dog.jpg" alt="כלב" style="border:5px solid #9933ff;" width="205" height="205"></a></p>
+  <p style="font-family:arial; font-size:19pt; text-align: center;"><b><span style="color: white">2,500,000:מחיר</span></b></p>
+    <button type="button" class="accordion__button"><b>מפרט</b></button>
+    <div class="accordion__content">
+    <p style="font-size: 16pt">
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+   </p>
+   </div>
+</td>
+<!--משבצת 5-->
+<td>
+<div class="box1">
+  <p title="קישור" style="text-align: center;"><a href="https://www.art-yeshiva.org.il/"><img src="dog.jpg" alt="כלב" style="border:5px solid #9933ff;" width="205" height="205"></a></p>
+  <p style="font-family:arial; font-size:19pt; text-align: center;"><b><span style="color: white">2,500,000:מחיר</span></b></p>
+    <button type="button" class="accordion__button"><b>מפרט</b></button>
+    <div class="accordion__content">
+    <p style="font-size: 16pt">
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+   </p>
+   </div>
+</td>
+</tr>
+<!--קןמה ב-->
+<tr >
+<!--משבצת 1-->
+<td>
+<div class="box1">
+  <p title="קישור" style="text-align: center;"><a href="https://www.art-yeshiva.org.il/"><img src="dog.jpg" alt="כלב" style="border:5px solid #9933ff;" width="205" height="205"></a></p>
+  <p style="font-family:arial; font-size:19pt; text-align: center;"><b><span style="color: white">2,500,000:מחיר</span></b></p>
+    <button type="button" class="accordion__button"><b>מפרט</b></button>
+    <div class="accordion__content">
+    <p style="font-size: 16pt">
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+   </p>
+   </div>
+</td>
+<!--משבצת 2-->
+<td>
+<div class="box1">
+  <p title="קישור" style="text-align: center;"><a href="https://www.art-yeshiva.org.il/"><img src="dog.jpg" alt="כלב" style="border:5px solid #9933ff;" width="205" height="205"></a></p>
+  <p style="font-family:arial; font-size:19pt; text-align: center;"><b><span style="color: white">2,500,000:מחיר</span></b></p>
+    <button type="button" class="accordion__button"><b>מפרט</b></button>
+    <div class="accordion__content">
+    <p style="font-size: 16pt">
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+   </p>
+   </div>
+</td>
+<!--משבצת 3-->
+<td>
+<div class="box1">
+  <p title="קישור" style="text-align: center;"><a href="https://www.art-yeshiva.org.il/"><img src="dog.jpg" alt="כלב" style="border:5px solid #9933ff;" width="205" height="205"></a></p>
+  <p style="font-family:arial; font-size:19pt; text-align: center;"><b><span style="color: white">2,500,000:מחיר</span></b></p>
+    <button type="button" class="accordion__button"><b>מפרט</b></button>
+    <div class="accordion__content">
+    <p style="font-size: 16pt">
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+   </p>
+   </div>
+</td>
+<!--משבצת 4-->
+<td>
+<div class="box1">
+  <p title="קישור" style="text-align: center;"><a href="https://www.art-yeshiva.org.il/"><img src="dog.jpg" alt="כלב" style="border:5px solid #9933ff;" width="205" height="205"></a></p>
+  <p style="font-family:arial; font-size:19pt; text-align: center;"><b><span style="color: white">2,500,000:מחיר</span></b></p>
+    <button type="button" class="accordion__button"><b>מפרט</b></button>
+    <div class="accordion__content">
+    <p style="font-size: 16pt">
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+   </p>
+   </div>
+</td>
+<!--משבצת 5-->
+<td>
+<div class="box1">
+  <p title="קישור" style="text-align: center;"><a href="https://www.art-yeshiva.org.il/"><img src="dog.jpg" alt="כלב" style="border:5px solid #9933ff;" width="205" height="205"></a></p>
+  <p style="font-family:arial; font-size:19pt; text-align: center;"><b><span style="color: white">2,500,000:מחיר</span></b></p>
+    <button type="button" class="accordion__button"><b>מפרט</b></button>
+    <div class="accordion__content">
+    <p style="font-size: 16pt">
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+<br>
+<br>
+טקסט טקסט טקסט: נתונים נתונים נתונים
+   </p>
+   </div>
+</td>
+</tr>
+</table>
+</div>
+
+<script>
+document.querySelectorAll('.accordion__button').forEach(button =>{
+button.addEventListener('click', () => {
+const accordionContent = button.nextElementSibling;
+
+button.classList.toggle('accordion__button--active');
+
+if (button.classList.contains('accordion__button--active')) {
+accordionContent.style.maxHeight = accordionContent.scrollHeight +'px';
+} else {
+accordionContent.style.maxHeight = 0;
+}
+});
+});
+</script>
+</body>
+</html>
